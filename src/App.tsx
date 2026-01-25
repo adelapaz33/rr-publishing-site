@@ -4,6 +4,9 @@ import { Route, Routes } from 'react-router-dom'
 import Header from './components/Header'
 import { Link } from 'react-router-dom'
 import Footer from './components/Footer'
+import MusicCatalog from './pages/MusicCatalog'
+import Composers from './pages/Composers'
+import About from './pages/About'
 function App() {
 
 
@@ -13,6 +16,9 @@ function App() {
 <Link to="/">R&R Publishing</Link>
      <Routes>
       <Route path="/" element={<Home/>} />
+      <Route path="/composers" element={<Composers/>} />
+      <Route path="/catalog/:id" element={<MusicCatalog/>} />
+      <Route path="/about" element={<About/>} />
      </Routes>
 <Footer/>
     </>
