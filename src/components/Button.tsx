@@ -20,7 +20,7 @@ const buttonStyles = tv({
     },
     defaultVariants: {
         intent: 'primary',
-        side: 'md',
+        size: 'md',
     },
 });
 
@@ -45,7 +45,7 @@ function Button({
     }
 
     return(
-        <button onClick={onClick} disabled={disabled} className={className}>{children}</button>
+        <button onClick={onClick} disabled={isDisabled} className={className}>{children}</button>
     )
 }
 
