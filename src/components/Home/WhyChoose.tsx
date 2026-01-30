@@ -1,4 +1,4 @@
-import WhyChooseCard from "./WhyChooseCard"
+import WhyChooseCard from "../cards/WhyChooseCard"
 
 function WhyChoose({title, description, imageSrc}) {
     return(

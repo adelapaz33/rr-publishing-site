@@ -5,7 +5,8 @@
     "composer": "Alison de la Paz",
     "cover": "https://placehold.co/300x400?text=Cover",
     "voicing": "SSAA",
-    "description": "A contemporary choral work inspired by water, movement, and memory."
+    "description": "A contemporary choral work inspired by water, movement, and memory.",
+    "featured": false
   },
   {
     "id": "roots-and-wings",
@@ -13,7 +14,8 @@
     "composer": "María López",
     "cover": "https://placehold.co/300x400?text=Cover",
     "voicing": "SATB",
-    "description": "A flexible SATB piece exploring heritage, growth, and belonging."
+    "description": "A flexible SATB piece exploring heritage, growth, and belonging.",
+    "featured": false
   },
   {
     "id": "alfonsina-y-el-mar",
@@ -21,7 +23,8 @@
     "arranged": "Alberto de la Paz",
     "cover": "https://placehold.co/300x400?text=Cover",
     "voicing": "TTBB",
-    "description": "A flexible SATB piece exploring heritage, growth, and belonging."
+    "description": "A flexible SATB piece exploring heritage, growth, and belonging.",
+    "featured": true
   },
   {
     "id": "el-manisero",
@@ -29,7 +32,8 @@
     "composer": "Yosvany Estepe",
     "cover": "https://placehold.co/300x400?text=Cover",
     "voicing": "TTBB",
-    "description": "A flexible SATB piece exploring heritage, growth, and belonging."
+    "description": "A flexible SATB piece exploring heritage, growth, and belonging.",
+    "featured": true
   },
   {
     "id": "requiem-xantolo",
@@ -37,6 +41,7 @@
     "composer": "Julio Morales",
     "cover": "https://placehold.co/300x400?text=Cover",
     "voicing": "SATB",
-    "description": "A flexible SATB piece exploring heritage, growth, and belonging."
+    "description": "A flexible SATB piece exploring heritage, growth, and belonging.",
+    "featured": true
   }
 ]

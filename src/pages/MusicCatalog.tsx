@@ -1,5 +1,5 @@
 import scores from "../data/score.json";
-import MusicCard from "../components/MusicCard";
+import MusicCard from "../components/cards/MusicCard";
 
 function MusicCatalog({ }) {
     return <section className="catalog">
