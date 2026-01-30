@@ -3,8 +3,8 @@ import WhyChooseCard from "../cards/WhyChooseCard"
 function WhyChoose({title, description, imageSrc}) {
     return(
         <section>
-            <h1>Why Choose R&R Publishing</h1>
-            <p>Your gateway to authentic Latin American choral music</p>
+            <h1 className="text-4xl">Why Choose R&R Publishing</h1>
+            <p className="text-lg">Your gateway to authentic Latin American choral music</p>
             <div className="flex flex-row justify-evenly">
             <WhyChooseCard title="Curated Collection" description="Expertly selected works from established and emerging Latin American composers and arrangers."></WhyChooseCard>
             <WhyChooseCard title="Diverse Repertoire" description="From traditional folk arrangements to new compositions for all ensemble types and skill levels."></WhyChooseCard>
