@@ -2,7 +2,7 @@ import NavBar from "./NavBar";
 
 function Header() {
     return(
-        <header>
+        <header className="bg-[#1F3D2B]">
             <NavBar/>
         </header>
     )
