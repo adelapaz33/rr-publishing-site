@@ -11,7 +11,7 @@ function App() {
 
 
   return (
-    <>
+    <main className="px-6 py-8 max-w-7xl mx-auto">
 <Header />
 <Link to="/">R&R Publishing</Link>
      <Routes>
@@ -21,7 +21,7 @@ function App() {
       <Route path="/about" element={<About/>} />
      </Routes>
 <Footer/>
-    </>
+    </main>
   )
 }
 
