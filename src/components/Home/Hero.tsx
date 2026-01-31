@@ -5,7 +5,7 @@ function Hero() {
         <main className="bg-[#FAF7F2]">
         <section className=" max-w-5xl mx-auto px-6 py-12 text-center">
      
-        <h1 className="text-4xl text-[#1F3D2B] font-bold tracking-tight">Choral music rooted in <span className="text-[#1F3D2B]">Latin American</span> voices</h1>
+        <h1 className="text-5xl text-[#1F3D2B]  tracking-tight">Choral music rooted in <span className="text-[#1F3D2B]">Latin American</span> voices</h1>
         <p className="mt-6 text-lg text=[#3A3A3A] max-w-2xl mx-auto">Discover extraordinary choral works by talented Latin American composers. Bringing diverse musical traditions and contemporary expressions to choirs worldwide.</p>
         </section>
     <HeroStripe/>
