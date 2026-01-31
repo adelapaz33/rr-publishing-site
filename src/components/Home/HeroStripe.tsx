@@ -1,12 +1,12 @@
 
 function HeroStripe() {
     return (
-      <div className="flex w-24 sm:w-32 md:w-48 h-1 sm:h-1.5 md:h-2 mx-auto mt-4 mb-6">
-        <div className="flex-1 bg-[#B4532A]"></div> {/* Terracotta */}
-        <div className="flex-1 bg-[#D6A73A]"></div> {/* Mustard */}
-        <div className="flex-1 bg-[#2F7F6D]"></div> {/* Teal */}
+      <div className="flex w-32 sm:w-48 md:w-64 h-2 sm:h-2.5 md:h-3 mx-auto mt-4 mb-6 rounded">
+        <div className="flex-1 bg-[#E94F37]"></div> 
+        <div className="flex-1 bg-[#F4C430]"></div> 
+        <div className="flex-1 bg-[#3B82F6]"></div>
       </div>
     );
   }
-      
-      export default HeroStripe;
+  
+  export default HeroStripe;

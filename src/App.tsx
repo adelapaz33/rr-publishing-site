@@ -11,9 +11,9 @@ function App() {
 
 
   return (
-    <main className="max-w-7xl mx-auto">
+    <main className="max-w-9xl mx-auto">
 <Header />
-<Link to="/">R&R Publishing</Link>
+
      <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/composers" element={<Composers/>} />
