@@ -1,4 +1,4 @@
-import scores from "../data/score.json";
+import scores from "../data/scores.json";
 import MusicCard from "../components/cards/MusicCard";
 
 function MusicCatalog({ }) {

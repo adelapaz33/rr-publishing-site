@@ -1,5 +1,5 @@
 import FeaturedScoresCard from "../cards/FeaturedScoresCard"
-import scores from "../../data/score.json"
+import scores from "../../data/scores.json"
 import Button from "../Button";
 
 function FeaturedScores() {
