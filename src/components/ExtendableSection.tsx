@@ -1,13 +1,13 @@
-import { useId, useState } from "react";
+import { useId, useState, type ReactNode } from "react";
 
-type ExpandableSectionProps = {
+type ExtendableSectionProps = {
     title: string; //header of section
     children: ReactNode; // content inside section
     defaultOpen?: boolean; 
     className?: string;
 }
 ;
-function ExtendableSection({title, children, defaultOpen = false, className,}: ExpandableSectionProps) {
+function ExtendableSection({title, children, defaultOpen = false, className,}: ExtendableSectionProps) {
     const [isOpen, setIsOpen] = useState(defaultOpen);
     const contentId = useId(); // links button to content for screen readers 
 
@@ -30,10 +30,9 @@ function ExtendableSection({title, children, defaultOpen = false, className,}: E
             <strong>{title}</strong>
             <span aria-hidden="true" style={{marginLeft: "auto"}}>{isOpen ? "▾" : "▸"}</span>
         </button>
-        {isOpen && (
-            <div id={contentId} // matches aria controls on button 
-            style={{marginTop: 8}}>{children}</div> // children renders whatever is put inside ExtendableSection
-        )}
+        <div id={contentId} hidden={!isOpen} style={{ marginTop: 8 }}>
+  {children}
+</div>
        </section>
     );
 }
