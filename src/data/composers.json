@@ -1,0 +1,92 @@
+[
+  {
+    "id": "alison-de-la-paz",
+    "name": "Alison de la Paz",
+    "headShot": "https://placehold.co/300x300?text=Composer",
+    "bio": "Alison de la Paz is a contemporary composer whose work explores memory, movement, and connection through choral music."
+  },
+  {
+    "id": "maria-lopez",
+    "name": "María López",
+    "headShot": "https://placehold.co/300x300?text=Composer",
+    "bio": "María López is a composer focused on themes of heritage and belonging, writing accessible yet expressive choral music."
+  },
+  {
+    "id": "alberto-de-la-paz",
+    "name": "Alberto de la Paz",
+    "headShot": "https://placehold.co/300x300?text=Arranger",
+    "bio": "Alberto de la Paz is an arranger known for adapting traditional works for contemporary choral ensembles."
+  },
+  {
+    "id": "yosvany-estepe",
+    "name": "Yosvany Estepe",
+    "headShot": "https://placehold.co/300x300?text=Composer",
+    "bio": "Yosvany Estepe is a composer whose work blends rhythmic vitality with cultural traditions."
+  },
+  {
+    "id": "julio-morales",
+    "name": "Julio Morales",
+    "headShot": "https://placehold.co/300x300?text=Composer",
+    "bio": "Julio Morales writes large-scale choral works inspired by ritual, history, and orchestral color."
+  },
+  {
+    "id": "lucia-fernandez",
+    "name": "Lucía Fernández",
+    "headShot": "https://placehold.co/300x300?text=Composer",
+    "bio": "Lucía Fernández draws inspiration from folk traditions of South America, creating lyrical choral works."
+  },
+  {
+    "id": "carlos-mendez",
+    "name": "Carlos Méndez",
+    "headShot": "https://placehold.co/300x300?text=Composer",
+    "bio": "Carlos Méndez composes bright, rhythmically driven choral music centered on renewal and hope."
+  },
+  {
+    "id": "ana-ribeiro",
+    "name": "Ana Ribeiro",
+    "headShot": "https://placehold.co/300x300?text=Composer",
+    "bio": "Ana Ribeiro explores nature and layered vocal textures in her contemporary choral writing."
+  },
+  {
+    "id": "diego-torres",
+    "name": "Diego Torres",
+    "headShot": "https://placehold.co/300x300?text=Composer",
+    "bio": "Diego Torres writes percussive choral works focused on journeys, migration, and movement."
+  },
+  {
+    "id": "elena-cruz",
+    "name": "Elena Cruz",
+    "headShot": "https://placehold.co/300x300?text=Composer",
+    "bio": "Elena Cruz is known for expansive choral works inspired by landscapes and natural environments."
+  },
+  {
+    "id": "raul-hernandez",
+    "name": "Raúl Hernández",
+    "headShot": "https://placehold.co/300x300?text=Composer",
+    "bio": "Raúl Hernández writes flowing upper-voice works that explore openness, light, and space."
+  },
+  {
+    "id": "valentina-gomez",
+    "name": "Valentina Gómez",
+    "headShot": "https://placehold.co/300x300?text=Composer",
+    "bio": "Valentina Gómez creates contemporary choral music that experiments with echo, space, and texture."
+  },
+  {
+    "id": "sofia-navarro",
+    "name": "Sofía Navarro",
+    "headShot": "https://placehold.co/300x300?text=Composer",
+    "bio": "Sofía Navarro composes gentle, flowing choral works inspired by the sea."
+  },
+  {
+    "id": "miguel-ortiz",
+    "name": "Miguel Ortiz",
+    "headShot": "https://placehold.co/300x300?text=Composer",
+    "bio": "Miguel Ortiz specializes in rich, lyrical writing for lower voices."
+  },
+  {
+    "id": "isabel-ramirez",
+    "name": "Isabel Ramírez",
+    "headShot": "https://placehold.co/300x300?text=Composer",
+    "bio": "Isabel Ramírez writes energetic choral music inspired by festivals and community traditions."
+  }
+]
