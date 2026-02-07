@@ -1,9 +1,13 @@
 function FeaturedScoresCard({title, composer, arranger, cover}) {
     return(
-        <div className="shadow">
-            <img src={cover} alt={title} />
-<h3>{title}</h3>
-<p>{composer || arranger}</p>
+        <div className="shadow rounded-xl max-w-[300px] overflow-hidden">
+            <img className="h-75 w-full object-cover" src={cover} alt={title} />
+            <div className="p-4 text-left"> 
+            {/* link to purchase of song  */}
+<h3 className="text-lg" >{title}</h3> 
+{/* link to composer page  */}
+<p className="text-gray-600 text-md">{composer || arranger}</p> 
+</div>
         </div>
     )
 }
