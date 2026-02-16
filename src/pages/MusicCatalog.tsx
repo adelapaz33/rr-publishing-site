@@ -1,23 +1,18 @@
-import scores from "../data/scores.json";
-import MusicCard from "../components/cards/MusicCard";
+import BrowseMusic from "../components/catalog/BrowseMusic";
+import CatalogSearch from "../components/catalog/CatalogSearch";
+import FilterPanel from "../components/catalog/FilterPanel";
+import NewMusic from "../components/catalog/NewMusic";
 
 function MusicCatalog({ }) {
     return <section className="catalog bg-[#FFF8F0]">
     <h1 className="text-4xl font-bold mb-8 text-center">Music Catalog</h1>
-    <ul>{scores.map((score) => (
-        <MusicCard
-        key={score.id}
-        title={score.title}
-        composer={score.composer}
-        Arranged={score.arranged}
-        voicing={score.voicing}
-        cover={score.cover}
-        duration={score.duration}
-        accompaniment={score.accompanimentType}
+    
+    <CatalogSearch/>
+    <NewMusic/>
+    <BrowseMusic/>
+    <FilterPanel/>
+   
 
-
-        />
-    ))}</ul>
     </section>
 }
 
