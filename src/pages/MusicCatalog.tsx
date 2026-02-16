@@ -9,9 +9,12 @@ function MusicCatalog({ }) {
         key={score.id}
         title={score.title}
         composer={score.composer}
-        arranger={score.arranged}
+        Arranged={score.arranged}
         voicing={score.voicing}
         cover={score.cover}
+        duration={score.duration}
+        accompaniment={score.accompanimentType}
+
 
         />
     ))}</ul>
