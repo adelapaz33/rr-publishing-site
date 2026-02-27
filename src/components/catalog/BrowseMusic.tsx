@@ -1,10 +1,12 @@
 import MusicCard from "../cards/MusicCard";
 import scores from "../../data/scores.json";
+import FilterPanel from "./FilterPanel";
 
 function BrowseMusic () {
     return (
         <>
         <h2>Browse Music</h2>
+        <FilterPanel/>
         <ul>{scores.map((score) => (
             <MusicCard
             key={score.id}
@@ -15,8 +17,6 @@ function BrowseMusic () {
             cover={score.cover}
             duration={score.duration}
             accompaniment={score.accompanimentType}
-    
-    
             />
         ))}</ul>
 
