@@ -7,7 +7,7 @@ function BrowseMusic () {
         <>
         <h2>Browse Music</h2>
         <FilterPanel/>
-        <ul>{scores.map((score) => (
+        {/* <ul>{scores.map((score) => (
             <MusicCard
             key={score.id}
             title={score.title}
@@ -18,7 +18,7 @@ function BrowseMusic () {
             duration={score.duration}
             accompaniment={score.accompanimentType}
             />
-        ))}</ul>
+        ))}</ul> */}
 
 </>
         
